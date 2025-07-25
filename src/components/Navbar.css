@@ -1,0 +1,66 @@
+.navbar{
+    background-color: rgb(27, 21, 54);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .content {
+    display: flex;
+    min-width: 360px;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;
+}
+
+.buttons button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.homeButton{
+    font-size: 20px;
+}
+
+.cartlogo {
+    position: relative;
+    font-size: 25px;
+}
+
+.number{
+    background-color: rgb(28, 168, 28);
+    border-radius: 50%;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation: bounce 0.4s infinite alternate;
+    top: -8px;
+    right: -10px;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-8px);
+  }
+}

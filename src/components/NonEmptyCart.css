@@ -1,0 +1,33 @@
+.nonEmptyCart{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.cartDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70vh;
+    padding: 50px;
+    position: sticky;
+    top: 60px;
+}
+
+.cartDetails .header{
+    color: rgb(28, 168, 28);
+}
+
+.checkOut{
+    width:100%;
+    font-size: 18px;
+    height: 40px;
+    background-color: rgb(28, 168, 28);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.cartTotalPrice{
+    color: rgb(28, 168, 28);
+}
